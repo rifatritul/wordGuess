@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Word Guess</title>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body style="text-align: center;">
+	<h3>Welcome <br> to <br> Word Guess!!</h3>
+	<p><b>How to:</b> Computer will generate a random five letter word. <br>User has to guess a letter & if the letter matches with any of the letters of the chosen WORD, that letter will be revealed. <br>User gets 10 chances to guess the word. </p>
+<div>
+<button onclick="setLetter('Q'); this.disabled=true;">Q</button>
+<button onclick="setLetter('W'); this.disabled=true;">W</button>
+<button onclick="setLetter('E'); this.disabled=true;">E</button>
+<button onclick="setLetter('R'); this.disabled=true;">R</button>
+<button onclick="setLetter('T'); this.disabled=true;">T</button>
+<button onclick="setLetter('Y'); this.disabled=true;">Y</button>
+<button onclick="setLetter('U'); this.disabled=true;">U</button>
+<button onclick="setLetter('I'); this.disabled=true;">I</button>
+<button onclick="setLetter('O'); this.disabled=true;">O</button>
+<button onclick="setLetter('P'); this.disabled=true;">P</button>
+</div>
+<div>
+<button onclick="setLetter('A'); this.disabled=true;">A</button>
+<button onclick="setLetter('S'); this.disabled=true;">S</button>
+<button onclick="setLetter('D'); this.disabled=true;">D</button>
+<button onclick="setLetter('F'); this.disabled=true;">F</button>
+<button onclick="setLetter('G'); this.disabled=true;">G</button>
+<button onclick="setLetter('H'); this.disabled=true;">H</button>
+<button onclick="setLetter('J'); this.disabled=true;">J</button>
+<button onclick="setLetter('K'); this.disabled=true;">K</button>
+<button onclick="setLetter('L'); this.disabled=true;">L</button>
+</div>
+<div>
+<button onclick="setLetter('Z'); this.disabled=true;">Z</button>
+<button onclick="setLetter('X'); this.disabled=true;">X</button>
+<button onclick="setLetter('C'); this.disabled=true;">C</button>
+<button onclick="setLetter('V'); this.disabled=true;">V</button>
+<button onclick="setLetter('B'); this.disabled=true;">B</button>
+<button onclick="setLetter('N'); this.disabled=true;">N</button>
+<button onclick="setLetter('M'); this.disabled=true;">M</button>
+</div>
+<br>
+<p id="attmpt">Attempts Left: 10</p>
+<div>
+	<button id="letter1"></button>
+	<button id="letter2"></button>
+	<button id="letter3"></button>
+	<button id="letter4"></button>
+	<button id="letter5"></button>
+</div>
+</body>
+</html>
